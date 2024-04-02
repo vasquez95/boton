@@ -1,0 +1,27 @@
+.box{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    max-width: 1440;
+    margin: 0px auto;
+}
+.body{
+    background-color: black;
+}
+.signin{
+    color: blue;
+    width: 120px;
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    background: transparent;
+    font-size: 17px;
+    transition: 0.3s;    
+}
+.signin:hover{
+    background-color: rgb(83, 79, 79);
+    
+}
